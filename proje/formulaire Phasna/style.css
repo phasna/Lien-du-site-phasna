@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(188, 140, 140);
+}
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    border: 2mm ridge rgba(255, 207, 32, 0.429);
+}
+form{
+text-align: center;
+font-size: 20px;
+padding-bottom: 50px;
+
+
+}
+
+select {
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 50px;
+  margin: 20px;
+  border: 2mm ridge rgba(255, 207, 32, 0.429);
+  border-radius: 20px;
+  
+}
+
+select:hover{
+  -ms-transform: scale(0.5); /* IE 9 */
+  -webkit-transform: scale(0.5); /* Safari 3-8 */
+  transform: scale(1.1);
+  }
+
+textarea{
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+input {
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+    border: 2mm ridge rgba(255, 207, 32, 0.429);
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px rgb(43, 35, 35); 
+    transition: transform .1s;  
+}
+
+input:hover {
+
+  background-color: #ffffff93;
+  color: rgb(255, 0, 0);
+}
+
+input:hover{
+  -ms-transform: scale(0.5); /* IE 9 */
+  -webkit-transform: scale(0.5); /* Safari 3-8 */
+  transform: scale(1.1);
+  }
+
+.submit{
+    font-size: 35px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#idNom  {
+    margin-top: 0,5em;
+}
+
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 40px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 15px;
+  transition: background-color 0.5s ease;
+  box-shadow: 8px 5px 5px rgb(43, 35, 35);
+  margin: 8px 10px;
+}
+.btn:hover {
+  background-color: #ff7e7e86;
+  color: white;
+}
+
+.btn:hover{
+  -ms-transform: scale(0.5); /* IE 9 */
+  -webkit-transform: scale(0.5); /* Safari 3-8 */
+  transform: scale(1.1);
+  }
+
+h2 {
+  text-align: center;
+  border-radius: 20px;
+  font-size: 35px;
+  transition: transform .1s;  
+  border-width:1px;
+  border-color:rgb(255, 255, 255);
+}
+
+textarea{
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 50px;
+  border: 2mm ridge rgba(255, 207, 32, 0.429);
+  border-radius: 20px;
+}
+
+
+#cat {
+  max-width: 200px;
+  margin: 0 auto;
+}
+#cauda {
+  width: 72px;
+  height: 79px;
+  animation: cauda 6s linear infinite;
+  transform-origin: right bottom;
+  transform-box: fill-box;
+}
+
+@keyframes cauda {
+  0% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
+.loisir {
+  display: flex;
+  flex-direction: column;
+}
